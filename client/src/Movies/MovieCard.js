@@ -8,7 +8,7 @@ const MovieCard = props => {
         Director: <em>{props.movie.director}</em>
       </div>
       <div className='movie-metascore'>
-        Metascore: <italic>{props.movie.metascore}</italic>
+        Metascore: <i>{props.movie.metascore}</i>
       </div>
       <h3>Actors</h3>
 
